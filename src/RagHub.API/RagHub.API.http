@@ -1,0 +1,6 @@
+@RagHub.API_HostAddress = http://localhost:5079
+
+GET {{RagHub.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

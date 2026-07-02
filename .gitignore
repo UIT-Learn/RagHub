@@ -1,0 +1,43 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+artifacts/
+
+# Node / frontend (portal has its own .gitignore too)
+node_modules/
+dist/
+dist-ssr/
+
+# Python (reranker sidecar)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Reranker runtime logs (regenerated on each start.cmd run)
+reranker/sidecar.log
+reranker/sidecar_err.log
+reranker/*.log
+
+# Aspire local session state
+src/RagHub.AppHost/bin/
+src/RagHub.AppHost/obj/
+
+# Runtime uploaded documents (test data generated locally, not source)
+src/RagHub.API/uploads/
+
+# Per-developer local config (tạo thủ công theo hướng dẫn ở README, chứa mật khẩu DB dev)
+src/RagHub.API/appsettings.Development.json
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Jupyter checkpoints
+.ipynb_checkpoints/
