@@ -45,15 +45,15 @@ The answer is generated from actual text chunks retrieved from the uploaded docu
 
 ## Architecture overview
 
-![RagHub system architecture overview](reports/FlowChart-TongQuan.png)
+![RagHub system architecture overview](reports/FlowChart-en-Overview.png)
 
 ### Ingestion flow (runs once, at upload time)
 
-![Document processing and indexing flow](reports/FlowChart-TaiLieu.png)
+![Document processing and indexing flow](reports/FlowChart-en-DocumentProccessing.png)
 
 ### Query flow (runs on every user question)
 
-![RAG question-answering flow](reports/FlowChart-HoiDap.png)
+![RAG question-answering flow](reports/FlowChart-en-QA.png)
 
 ---
 
